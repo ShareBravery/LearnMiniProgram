@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "礼物分类",
+  "navigationBarBackgroundColor": "#E0444F",
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,5 @@
+/* pages/category/category.wxss */
+.title{
+  color: #23AAF2;
+  font-size: 30px;
+}

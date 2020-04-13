@@ -1,6 +1,33 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的小程序^_^",
+    "backgroundColor": "#FCB90F",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首頁",
+        "iconPath": "assets/Taskbar/home.png",
+        "selectedIconPath": "assets/Taskbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "禮物",
+        "iconPath": "assets/Taskbar/gift.png",
+        "selectedIconPath": "assets/Taskbar/gift_active.png"
+      }
+    ]
+  }
 }

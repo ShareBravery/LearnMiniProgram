@@ -1,3 +1,6 @@
 <!--pages/category/category.wxml-->
 <!-- <text>pages/category/category.wxml</text> -->
 <view class="title">世界，你好</view>
+
+<button size="mini" bindtap="handleBtnClick">按钮</button>
+<view>{{message}}</view>

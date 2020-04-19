@@ -1,0 +1,19 @@
+//价格格式化
+function priceFormat(price,number){
+  // 判断是否传入number，如无，则默认保留两位小数
+  var number=number||2;
+
+  //将字符串转化
+  var f_price=parseFloat(price)
+
+  return price.toFixed(number)
+}
+
+//时间格式化
+function dateFormat(timestamp,format){
+  return '2019-10-10'
+}
+
+module.exports={
+  priceFormat: priceFormat
+}
